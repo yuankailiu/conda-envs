@@ -19,8 +19,8 @@ jupyterlab
 nbdime            #for readable nb differences
 ipympl            #for interactive matplotlib
 # compilers
-cxx-compiler      #for scalene installation on Linux
-fortran-compiler  #for pysolid installation in development mode
+#cxx-compiler      #for scalene installation on Linux
+#fortran-compiler  #for pysolid installation in development mode
 # latex
 latexdiff
 pdflatex
