@@ -3,7 +3,7 @@
 echo "source ~/tools/conda-envs/isce2/config.rc"
 
 # root directory
-export TOOL_DIR=~/tools
+export TOOL_DIR=~/apps
 export DATA_DIR=~/data   # data / nobak
 
 if [ -z ${PYTHONPATH+x} ]; then export PYTHONPATH=""; fi
@@ -26,7 +26,7 @@ export PATH=${PATH}:${ISCE_PROC_HOME}/src/isce_proc
 ##---------------------- ISCE2 ------------------------##
 # installed from source 
 # load required modules for compiling isce2
-module load cuda/11.2
+#module load cuda/11.2
 #module load /home/geomod/apps/rhel7/modules/gcc/7.3.1
 #module load /home/geomod/apps/rhel7/modules/python3/anaconda
 
