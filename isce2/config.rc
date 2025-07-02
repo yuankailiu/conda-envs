@@ -1,10 +1,11 @@
 # vim: set filetype=sh:
 # NOTE: require ${ISCE_VERSION}, e.g. in .bash_profile
-echo "source ~/tools/conda-envs/isce2/config.rc"
 
 # root directory
 export TOOL_DIR=~/apps
 export DATA_DIR=~/data   # data / nobak
+
+echo "source ${TOOL_DIR}/conda-envs/isce2/config.rc"
 
 if [ -z ${PYTHONPATH+x} ]; then export PYTHONPATH=""; fi
 

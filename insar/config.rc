@@ -1,9 +1,10 @@
 # vim: set filetype=sh:
-echo "source ~/tools/conda-envs/insar/config.rc"
 
 # root directory
 export TOOL_DIR=~/apps
 export DATA_DIR=~/data   # data / nobak
+
+echo "source ${TOOL_DIR}/conda-envs/insar/config.rc"
 
 if [ -z ${PYTHONPATH+x} ]; then export PYTHONPATH=""; fi
 
